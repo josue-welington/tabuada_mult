@@ -1,0 +1,44 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#container{
+    margin: auto;
+    width: 70%;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px gray;
+}
+#header{
+    color: rgb(55, 114, 241);
+    margin-bottom:20px ;
+}
+#content{
+    width: 100%;
+}
+input{
+    width: 60%;
+    padding: 5px;
+    color:rgb(55, 114, 241);
+}
+button{
+    width: 38%;
+    padding: 5px;
+    cursor: pointer;
+    background-color:lightyellow;
+    border-radius: 3px;
+    border:1px solid gray;
+}
+select{
+    width: 20%;
+    margin-right: 79%;
+    color: blue;
+}
+button:hover{
+    background-color: rgb(255, 255, 0);
+}
